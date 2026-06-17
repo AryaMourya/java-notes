@@ -41,5 +41,14 @@ public class loops {
             System.out.print(num + " ");
             num++;
         }
+
+        // Do while loop
+        /*
+            syntax of do while loop in Java
+
+            do {
+                // code to be executed
+            } while(condition);
+        */
 }
 }
