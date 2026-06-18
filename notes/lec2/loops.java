@@ -50,5 +50,10 @@ public class loops {
                 // code to be executed
             } while(condition);
         */
+       int a = 1;
+       do {
+            System.out.println(a + " ");
+            a++;
+       }while (a <= 5);
 }
 }
