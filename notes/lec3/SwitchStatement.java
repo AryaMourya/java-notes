@@ -8,18 +8,11 @@ public class SwitchStatement {
         Scanner in = new Scanner(System.in);
         String fruit = in.next();       
 
-        switch(fruit){
-            case "apple":
-                System.out.println("Apple is red");
-                break;
-            case "banana":
-                System.out.println("Banana is yellow");
-                break;
-            case "grape":
-                System.out.println("Grape is purple");
-                break;
-            default:
-                System.out.println("Unknown fruit");
+         switch (fruit) {
+            case "apple" -> System.out.println("Apple is red");
+            case "banana" -> System.out.println("Banana is yellow");
+            case "grape" -> System.out.println("Grape is purple");
+            default -> System.out.println("Unknown fruit");
         }
     }
 }
