@@ -9,8 +9,6 @@ public class ReturnStatement {
         System.out.println("The sum = " + result);
     }
     
-    // pass the value of numbers when you are calling 
-
 
     //return the value
     static int sum2() {
