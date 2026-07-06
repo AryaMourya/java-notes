@@ -7,7 +7,7 @@ public class MultiAL {
     public static void main(String[] args){
         ArrayList<ArrayList<Integer>> list = new ArrayList<ArrayList<Integer>>(3);
 
-        // add empty arraylists
+        // add empty arraylists (initialization)
         for(int i = 0; i< 3 ;i++ ){
             list.add(new ArrayList<>());
         }
