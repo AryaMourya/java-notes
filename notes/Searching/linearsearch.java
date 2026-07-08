@@ -9,8 +9,8 @@ public class linearsearch {
     // search in the array : rerurn the index if the item found
     // otherwise return -1 if item not found
    static int LinearSearch(int[] arr, int target){
-            if(arr.length == 0){
-               return -1;
+            if(arr.length == 0){ // here arr.length dont have any () because it is a property of the array and not a method//
+               return -1; // here in this case we are checking if the array is empty or not, if it is empty then we will return -1 because there is no element in the array to search for.
             }
         // run a for loop
         for(int index = 0; index < arr.length; index++){
