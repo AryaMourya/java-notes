@@ -1,4 +1,4 @@
-package notes.Searching;
+package notes.searching;
 public class SearchIn2Darray {
     public static void main(String[] args){
         int[][] arr = {
