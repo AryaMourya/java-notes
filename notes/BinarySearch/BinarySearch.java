@@ -2,9 +2,12 @@ package notes.BinarySearch;
 
 public class BinarySearch {
     public static void main(String[] args) {
-        
+        int[] arr = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
+        int target = 14;
+        int result = binarySearch(arr, target);
+        System.out.println("Index of " + target + " is: " + result);
     }
-    // return the index
+    // return the index 
     static int binarySearch(int arr[], int target){
         int start = 0;
         int end = arr.length - 1;
