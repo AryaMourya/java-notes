@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Calculator {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
-        // Take input from user till user does not press x or x
+        // Take input from user till user does not press x or X
 
         while (true){
-            // take the opreator as input 
+            // take the operator as input 
             char op = in.next().trim().charAt(0);
             if (op =='+'|| op=='-'|| op =='*' || op =='/' || op == '%'){
                 // input two numbers

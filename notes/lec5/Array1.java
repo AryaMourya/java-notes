@@ -4,10 +4,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Array1 {
-    //syntax
-    //datatype[] arrayName = new datatype[size];    
-    //store 5 roll numbers
-    int[] rollNumbers = new int[5];
     //or 
     int[] rollNumbers2 = {101, 102, 103, 104, 105};
 
